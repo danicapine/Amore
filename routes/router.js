@@ -3,4 +3,8 @@ const router = express.Router();
 const con = require('../controller/HpController'); 
 router.get('/', con.index);
 router.get('/', con.product);
+router.get('/', con.cart);
+router.get('/', con.blog);
+router.get('/', con.about);
+router.get('/', con.contact);
 module.exports = router;

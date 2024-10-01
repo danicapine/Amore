@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extender:true}));
 app.use('/', routes);
 app.use(express.static('public'));
 
-app.listen(3000, ()=>{
-    console.log('server initialized on http://localhost:3000');
+app.listen(8001, ()=>{
+    console.log('server initialized on http://localhost:8001');
 
 })
