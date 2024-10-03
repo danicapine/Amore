@@ -8,6 +8,10 @@ router.get('/blog', con.blog);
 router.get('/about', con.about);
 router.get('/contact', con.contact);
 router.get('/features', con.features);
+router.get('/roseblog', con.roseblog);
+router.get('/tulipblog', con.tulipblog);
+router.get('/carblog', con.carblog);
+
 
 
 module.exports = router;

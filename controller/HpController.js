@@ -20,5 +20,14 @@ const con = {
     features:(req, res)=>{
         res.render('features');   
     },
+    roseblog:(req, res)=>{
+        res.render('roseblog');   
+    },
+    tulipblog:(req, res)=>{
+        res.render('tulipblog');   
+    },
+    carblog:(req, res)=>{
+        res.render('carblog');   
+    },
 };
 module.exports = con;
