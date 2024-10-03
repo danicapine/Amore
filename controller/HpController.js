@@ -17,5 +17,8 @@ const con = {
     contact:(req, res)=>{
         res.render('contact');   
     },
+    features:(req, res)=>{
+        res.render('features');   
+    },
 };
 module.exports = con;
